@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3EA0F99D1A08BB4A00D6A2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0F99C1A08BB4A00D6A2C3 /* AppDelegate.swift */; };
 		3EA0F99F1A08BB4A00D6A2C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0F99E1A08BB4A00D6A2C3 /* ViewController.swift */; };
-		3EA0F9A21A08BB4A00D6A2C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA0F9A01A08BB4A00D6A2C3 /* Main.storyboard */; };
 		3EA0F9A41A08BB4A00D6A2C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA0F9A31A08BB4A00D6A2C3 /* Images.xcassets */; };
 		3EA0F9A71A08BB4A00D6A2C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA0F9A51A08BB4A00D6A2C3 /* LaunchScreen.xib */; };
 		3EA0F9B31A08BB4A00D6A2C3 /* tabnavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0F9B21A08BB4A00D6A2C3 /* tabnavTests.swift */; };
@@ -30,7 +29,6 @@
 		3EA0F99B1A08BB4A00D6A2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EA0F99C1A08BB4A00D6A2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EA0F99E1A08BB4A00D6A2C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3EA0F9A11A08BB4A00D6A2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EA0F9A31A08BB4A00D6A2C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3EA0F9A61A08BB4A00D6A2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3EA0F9AC1A08BB4A00D6A2C3 /* tabnavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabnavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +77,6 @@
 			children = (
 				3EA0F99C1A08BB4A00D6A2C3 /* AppDelegate.swift */,
 				3EA0F99E1A08BB4A00D6A2C3 /* ViewController.swift */,
-				3EA0F9A01A08BB4A00D6A2C3 /* Main.storyboard */,
 				3EA0F9A31A08BB4A00D6A2C3 /* Images.xcassets */,
 				3EA0F9A51A08BB4A00D6A2C3 /* LaunchScreen.xib */,
 				3EA0F99A1A08BB4A00D6A2C3 /* Supporting Files */,
@@ -192,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA0F9A21A08BB4A00D6A2C3 /* Main.storyboard in Resources */,
 				3EA0F9A71A08BB4A00D6A2C3 /* LaunchScreen.xib in Resources */,
 				3EA0F9A41A08BB4A00D6A2C3 /* Images.xcassets in Resources */,
 			);
@@ -236,14 +232,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3EA0F9A01A08BB4A00D6A2C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EA0F9A11A08BB4A00D6A2C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3EA0F9A51A08BB4A00D6A2C3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -337,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tabnav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tabnav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
